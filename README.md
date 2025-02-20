@@ -34,6 +34,6 @@ Per lanciare lo script utilizzare ```python generator.py```. Si possono usare i 
 - ```python generator.py -l <cod articolo 1>.<cod articolo 2>.<cod articolo n>``` per generare i barcode di una lista di articoli. I codici devono essere separati dal carattere punto (.).
 - ```python generator.py -f <percorso csv>``` per generare i barcode da un file csv. Il file csv deve essere formattato in modo da avere un codice articolo per ogni riga (non separati da nessun tipo di carattere).
 
-A ogni esecuizione dello script, se ci sono dati nella cartella barcodes, verrà chiesto se si vuole generare il report pdf.
+Ad ogni esecuzione dello script, se ci sono dati nella cartella barcodes, verrà chiesto se si vuole generare il report pdf.
 
 Al termine dell'utilizzo disattivare il venv attivato per utilizzare lo script con il comando ```deactivate```.
